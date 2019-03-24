@@ -44,6 +44,10 @@ elemento {
 }
 .subtitulos{
   margin-bottom: 50px;
+  transition: all 0.5s;
+}
+.subtitulos:hover{
+  transform: scale(1.1);
 }
 .subtitulos_icon{
   display: flex;
@@ -70,4 +74,26 @@ elemento {
     font-size:1.3em;
     text-align: left;
     margin-bottom: 20px;
+}
+
+
+.works_titulo{
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+.works_titulo h2{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #000;
+  margin: 0 auto;
+  font-size: 3em;
+  display: inline;
+  border-right: 2px solid #000;
+  animation:
+    blink-caret 2s step-end infinite;
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #000 }
 }
