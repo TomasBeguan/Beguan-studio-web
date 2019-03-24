@@ -8,6 +8,7 @@ a{
 a:hover{
   list-style: none;
   text-decoration: none;
+  cursor: pointer;
 }
 .divisor1{
   margin: 50px;
