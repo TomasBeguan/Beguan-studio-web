@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420.33514 231.35294">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #ff5050;
+        stroke-width: 4px;
+      }
+
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>3dart</title>
+  <g id="Capa_1" data-name="Capa 1">
+    <g>
+      <g>
+        <line class="cls-1" x1="175.14666" y1="72.89602" x2="143.38749" y2="91.24194"/>
+        <line class="cls-1" x1="276.16943" y1="90.61248" x2="246.65343" y2="73.74293"/>
+        <polygon class="cls-1" points="276.948 167.475 210.328 205.941 144.143 168.116 143.387 91.242 209.561 129.067 276.169 90.612 276.948 167.475"/>
+      </g>
+      <polygon class="cls-1" points="245.349 85.851 210.248 106.12 175.376 86.183 174.975 45.68 210.076 25.412 244.948 45.348 245.349 85.851"/>
+    </g>
+    <line class="cls-2" x1="209.561" y1="129.06684" x2="210.32778" y2="205.94118"/>
+    <polyline class="cls-2" points="174.975 45.68 209.847 65.606 210.248 106.12"/>
+    <line class="cls-2" x1="244.94814" y1="45.34849" x2="209.84712" y2="65.60571"/>
+  </g>
+</svg>

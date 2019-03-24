@@ -1,0 +1,80 @@
+@media (max-width: 1024px) {
+  .email_text{
+    font-size: 2em;
+    margin-top:12%;
+  }
+  .whatsapp_text{
+    font-size: 2em;
+    margin-top:12%;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .intro{
+    height: 100vh;
+    align-items: center;
+
+  }
+  .intro_text_cont{
+    width: 300px;
+    padding:30px;
+    border: 3px solid #000;
+    height: 220px;
+  }
+  .intro h1{
+    font-size: 3em;
+  }
+
+  .subintro_caja1{
+    padding: 0;
+  }
+  .subintro_caja2{
+    border: 1px solid #fff;
+    margin: 0px 10px 10px 10px;
+  }
+  .subintro_caja2:hover{
+    transform: scale(1) skewX(0deg) skewY(0deg);
+  }
+  .titulo_caja{
+    font-size: 2em;
+    margin: 60px 0px 60px 0px;
+  }
+  .caja_webdesign{
+    background-image: url("../assets/img/webdesign_mobile.svg");
+  }
+  .caja_2dart{
+    background-image: url("../assets/img/2dart_mobile.svg");
+  }
+  .caja_3dart{
+    background-image: url("../assets/img/3dart_mobile.svg");
+  }
+  .caja_video-animation{
+    background-image: url("../assets/img/video-animation_mobile.svg");
+  }
+  .caja_branding{
+    background-image: url("../assets/img/branding_mobile.svg");
+  }
+
+  .logo_cont{
+    width: 100%;
+  }
+  .email_cont:hover{
+    transform: scale(1) skewX(2deg) skewY(2deg);
+  }
+  .email_text{
+    font-size: 1.5em;
+    margin-top:12%;
+  }
+  .whatsapp_cont:hover{
+    transform: scale(1) skewX(2deg) skewY(2deg);
+  }
+  .whatsapp_text{
+    font-size: 1.5em;
+    margin-top:12%;
+  }
+
+
+
+}
