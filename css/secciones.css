@@ -98,11 +98,11 @@ elemento {
   50% { border-color: #000 }
 }
 .work_row{
-  padding: 10px;
+  padding: 0px;
 }
 .work_box_cont{
   width: 100%;
-  padding: 20px;
+
   /*box-shadow: 0px 0px 15px rgba(0,0,0,0.2);*/
   /*box-shadow: 10px 10px 0px rgba(8%, 13%, 16%,0.4);*/
   position: relative;
@@ -111,18 +111,17 @@ elemento {
   transition: all 0.5s;
   cursor: pointer;
   background: #fff;
-  border: solid 20px #f2f2f2;
 }
 .work_box_cont:hover{
   box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
   position: relative;
   top:-25px;
-  left: -25px;
   cursor: pointer;
-  transform: scale(1.1) skewX(1deg) skewY(1deg);
+  /*transform: scale(1.1) skewX(1deg) skewY(1deg);*/
   z-index: 50;
 }
 .work_box_logo{
+  padding: 10px;
 }
 .work_box_logo img{
   max-height: 150px;
