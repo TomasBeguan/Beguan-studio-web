@@ -76,5 +76,26 @@
   }
 
 
+  /*PAGINAS ADICIONALES*/
+
+
+  .subtitulos_icon{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .subtitulos_text h3{
+      text-align: center;
+      padding: 0px 20px 0px 20px;
+  }
+  .subtitulos_text h4{
+      text-align: center;
+      padding: 0px 20px 0px 20px;
+  }
+
+
+
+
+
 
 }

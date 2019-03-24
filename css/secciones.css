@@ -1,0 +1,73 @@
+elemento {
+  --webdesign: #FF7C48;
+  --assets2d: #4DFFC4;
+  --assets3d: #FF5050;
+  --video: #B752FF;
+  --branding: #FFF655;
+}
+
+.webdesign_color{
+  color: #FF7C48 !important;
+}
+.assets2d_color{
+  color: #4DFFC4;
+}
+.assets3d_color{
+  color: #FF5050;
+}
+.video_color{
+  color: #B752FF;
+}
+.branding_color{
+  color: #FFF655;
+}
+.negrita_webdesign{
+  font-weight: 700;
+  color: #FF7C48;
+}
+
+
+.titulos{
+  background-color: #142028;
+  padding-top:70px;
+}
+.titulos h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+}
+.icon_titulos{
+  width: 130px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+.subtitulos{
+  margin-bottom: 50px;
+}
+.subtitulos_icon{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+}
+.subtitulos_icon img{
+  width: 50%;
+}
+.subtitulos_text{
+
+}
+.subtitulos_text h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size:2em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.subtitulos_text h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size:1.3em;
+    text-align: left;
+    margin-bottom: 20px;
+}

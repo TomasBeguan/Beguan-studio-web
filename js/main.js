@@ -1,5 +1,4 @@
 
-
 function copyToClipboard(element) {
 
   var $temp = $("<input>");
