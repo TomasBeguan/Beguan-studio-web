@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 7px;
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <title>close</title>
+  <g id="Capa_5" data-name="Capa 5">
+    <line class="cls-1" x1="18.05882" y1="18.05882" x2="61.94118" y2="61.94118"/>
+    <line class="cls-1" x1="61.94118" y1="18.05882" x2="18.05882" y2="61.94118"/>
+  </g>
+  <g id="Capa_4" data-name="Capa 4">
+    <line class="cls-2" x1="19.16115" y1="19.16115" x2="60.83885" y2="60.83885"/>
+    <line class="cls-2" x1="60.83885" y1="19.16115" x2="19.16115" y2="60.83885"/>
+  </g>
+</svg>

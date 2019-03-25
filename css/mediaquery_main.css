@@ -12,10 +12,29 @@
 
 
 @media (max-width: 768px) {
+
+  /*NAVBAR*/
+
+  .navbar_icon{
+    background-color: rgba(0,0,0,0);
+    width: 80px;
+    height: 80px;
+    border: 0px solid #000;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+  }
+  .menu_item{
+    font-size: 1.5em;
+  }
+  .menu_item a{
+    border: 2px solid #fff;
+    width: 200px;
+  }
+
+  /*MAIN*/
+
   .intro{
     height: 100vh;
     align-items: center;
-
   }
   .intro_text_cont{
     width: 300px;

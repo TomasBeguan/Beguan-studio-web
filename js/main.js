@@ -18,3 +18,10 @@ function showIt() {
   $("#popup_copy").css("opacity","0");
   $("#popup_copy").css("visibility","hidden");
   }
+
+function navbar_on(){
+  $(".menu_main_cont").css("left","0%");
+}
+function navbar_off(){
+  $(".menu_main_cont").css("left","-100%");
+}

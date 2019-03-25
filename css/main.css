@@ -4,11 +4,13 @@
 a{
   list-style: none;
   text-decoration: none;
+  color: inherit;
 }
 a:hover{
   list-style: none;
   text-decoration: none;
   cursor: pointer;
+  color: inherit;
 }
 .divisor1{
   margin: 50px;

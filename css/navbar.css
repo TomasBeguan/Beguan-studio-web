@@ -1,0 +1,61 @@
+.navbar_button{
+  position: fixed;
+  top: 0px;
+  padding: 30px;
+}
+.navbar_icon{
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border: 4px solid #000;
+  box-shadow: 15px 15px 0px rgba(0,0,0,0.4);
+  transition: all 0.5s;
+}
+.navbar_icon:hover{
+    cursor: pointer;
+    transform: scale(1.1) skewX(1deg) skewY(1deg);
+}
+.navbar_icon img{
+}
+
+.menu_main_cont{
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height:100vh;
+  position: fixed;
+  top: 0px;
+  left: -100%;
+  transition: all 0.5s cubic-bezier(.5,.83,.59,.95);
+}
+.menu_cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_item{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu_item a{
+  border: 4px solid #fff;
+  transition: all 0.5s;
+  background-color: rgba(0,0,0,0.9);
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 10px 0px 10px 0px
+}
+.menu_item a:hover{
+  transform: scale(1.1) skewX(1deg) skewY(1deg);
+}
+.btn_home{
+  margin-bottom: 70px!important;
+}
