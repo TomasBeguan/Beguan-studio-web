@@ -161,7 +161,7 @@
     <div class="container-fluid fondo_negro">
 
 
-      <div class="container">
+      <div class="container" id="contact">
 
         <div class="row">
           <div class="col-md-6 col-sm-12">
@@ -209,7 +209,32 @@
     </div>
     <p id="p1" class="email_invi">tomasbeguan@gmail.com</p>
 
+    <!--NAVBAR-->
+    <div class="navbar_button">
+      <div class="navbar_icon" id="navbar_btn" onclick="navbar_on()">
+        <img src="assets/img/burger.svg" alt="">
+      </div>
+    </div>
 
+    <div class="menu_main_cont">
+      <div class="navbar_button">
+        <div class="navbar_icon" id="navbar_btn" onclick="navbar_off()">
+          <img src="assets/img/close.svg" alt="">
+        </div>
+      </div>
+      <div class="menu_cont">
+        <div class="menu_item">
+          <a href="index.html" class="btn_home">HOME</a>
+          <a href="webdesign.html">WEB DESIGN</a>
+          <a href="2dart.html">2D ART</a>
+          <a href="3dart.html">3D ART</a>
+          <a href="video.html">VIDEO</a>
+          <a href="branding.html">BRANDING</a>
+          <a href="#contact" onclick="navbar_off()" class="js-anchor-link btn_contact">CONTACT</a>
+        </div>
+      </div>
+    </div>
+    <!--NAVBAR-->
 
     <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"

@@ -59,3 +59,7 @@
 .btn_home{
   margin-bottom: 70px!important;
 }
+.btn_contact{
+  border: 4px solid #3C83C9 !important;
+  color: #3C83C9!important;
+}

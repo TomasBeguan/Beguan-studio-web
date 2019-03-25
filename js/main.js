@@ -21,10 +21,17 @@ function showIt() {
 
 function navbar_on(){
   $(".menu_main_cont").css("left","0%");
+  $("body").css("overflow-x","hidden");
+  $("body").css("overflow-y","hidden");
 }
 function navbar_off(){
   $(".menu_main_cont").css("left","-100%");
+  $("body").css("overflow-x","auto");
+  $("body").css("overflow-y","auto");
 }
+
+
+
 
 $('.js-anchor-link').click(function(e){
   e.preventDefault();
