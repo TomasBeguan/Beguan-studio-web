@@ -99,6 +99,13 @@
     font-size: 1.5em;
     margin-top:12%;
   }
+  .instagram_cont:hover{
+    transform: scale(1) skewX(2deg) skewY(2deg);
+  }
+  .instagram_text{
+    font-size: 1.5em;
+    margin-top:12%;
+  }
 
 
   /*PAGINAS ADICIONALES*/
@@ -119,7 +126,6 @@
   }
   .work_box_cont{
     margin-bottom: 40px;
-    box-shadow: 0px 8px 0px rgba(0,0,0,0.5);
   }
   .works_titulo{
     padding: 50px 0px 50px 0px;

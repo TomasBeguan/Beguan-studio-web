@@ -9,23 +9,40 @@ elemento {
 .webdesign_color{
   color: #FF7C48 !important;
 }
-.assets2d_color{
-  color: #4DFFC4;
+.art2d_color{
+  color: #4DFFC4 !important;
 }
-.assets3d_color{
-  color: #FF5050;
+.art3d_color{
+  color: #FF5050 !important;
 }
 .video_color{
-  color: #B752FF;
+  color: #B752FF !important;
 }
 .branding_color{
-  color: #FFF655;
+  color: #FFF655 !important;
 }
+
+
 .negrita_webdesign{
   font-weight: 700;
   color: #FF7C48;
 }
-
+.negrita_art2d{
+  font-weight: 700;
+  color: #4DFFC4;
+}
+.negrita_art3d{
+  font-weight: 700;
+  color: #FF5050;
+}
+.negrita_video{
+  font-weight: 700;
+  color: #B752FF;
+}
+.negrita_branding{
+  font-weight: 700;
+  color: #FFF655;
+}
 
 .titulos{
   background-color: #142028;
@@ -102,7 +119,6 @@ elemento {
 }
 .work_box_cont{
   width: 100%;
-
   /*box-shadow: 0px 0px 15px rgba(0,0,0,0.2);*/
   /*box-shadow: 10px 10px 0px rgba(8%, 13%, 16%,0.4);*/
   position: relative;
@@ -111,6 +127,7 @@ elemento {
   transition: all 0.5s;
   cursor: pointer;
   background: #fff;
+  user-select: none;
 }
 .work_box_cont:hover{
   box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
