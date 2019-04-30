@@ -2,13 +2,26 @@
   <defs>
     <style>
       .cls-1 {
-        font-size: 150px;
-        font-family: Raleway-Bold, Raleway;
-        font-weight: 700;
+        fill: #131e26;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: #000;
+        stroke-miterlimit: 10;
       }
     </style>
   </defs>
   <title>logo</title>
-  <path d="M196,4V196H4V4H196m4-4H0V200H200V0Z"/>
-  <text class="cls-1" transform="translate(47.97559 152.93848)">B</text>
+  <circle class="cls-1" cx="100" cy="100" r="100"/>
+  <g>
+    <path class="cls-2" d="M106.8,102H72.3a2,2,0,0,1,0-4h34.5a18.9,18.9,0,1,0,0-37.8H72.3a2,2,0,0,1,0-4h34.5a22.9,22.9,0,0,1,0,45.8Z" transform="translate(0)"/>
+    <path class="cls-2" d="M129.59209,119.6h-4c0-9.21113-8.95693-17.6-18.79209-17.6H72.3V98h34.5C118.9416,98,129.59209,108.09355,129.59209,119.6Z" transform="translate(0)"/>
+    <path class="cls-2" d="M106.8,143.8H72.3v-4h34.5a20.271,20.271,0,0,0,14.133-5.94,14.93941,14.93941,0,0,0,4.58174-10.6334l3.99961-.05312a18.90073,18.90073,0,0,1-5.73418,13.49609A24.35186,24.35186,0,0,1,106.8,143.8Z" transform="translate(0)"/>
+    <path class="cls-2" d="M72.29961,143.8a1.99995,1.99995,0,0,1-1.45781-3.36875l39.8-42.4001a2,2,0,1,1,2.9164,2.7377l-39.8,42.3999A1.99456,1.99456,0,0,1,72.29961,143.8Z" transform="translate(0)"/>
+  </g>
+  <path class="cls-3" d="M112.746,58.9" transform="translate(0)"/>
 </svg>

@@ -48,6 +48,7 @@ elemento {
   background-color: #142028;
   padding-top:70px;
 }
+
 .titulos h1{
   font-family: 'Montserrat', sans-serif;
   color: #fff;
@@ -73,7 +74,6 @@ elemento {
 
 }
 .subtitulos_icon img{
-  width: 50%;
 }
 .subtitulos_text{
 
@@ -136,6 +136,7 @@ elemento {
   cursor: pointer;
   /*transform: scale(1.1) skewX(1deg) skewY(1deg);*/
   z-index: 50;
+  cursor: default;
 }
 .work_box_logo{
   padding: 10px;
